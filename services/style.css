@@ -1,0 +1,215 @@
+/* CSS pour acceuil */
+
+@font-face {
+  font-family:"montserra";
+  src :url("Montserrat-Regular.ttf");
+}
+@font-face {
+  font-family:"cinzel";
+  src:url("Cinzel-Black.ttf");
+}
+
+body{
+  height:100%;
+  width:100%;
+  overflow: hidden;
+}
+
+.bgacceuil{
+  height:100%;
+  width:100%;
+  position: absolute;
+  left:0;
+}
+
+.hautpage{
+  height: 10vh;
+  width: 100%;
+  background-color: #373737;
+  position: absolute;
+  top: 0;
+  left:0;
+  border-bottom: 2px solid white;
+}
+
+.logo{
+  height: 10vh;
+  width: 15vw;
+  float:left;
+}
+
+.navbar{
+  position: absolute;
+  left: 55%;
+  top: 33%;
+}
+a{
+  text-decoration: none;
+  margin-left:4vw;
+  color:#DCD0C0;
+  font-size: 2.8vh;
+  font-family: cinzel;
+}
+a:hover{
+  color:grey;
+}
+
+.milieupage{
+  height:35vh;
+  width:40vw;
+  position: absolute;
+  left:29%;
+  top:35%;
+  border:2px solid white;
+  background-image: url(../images/pattern_01.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.logoacc{
+  height:10vh;
+  width:17vw;
+  border:2px solid #373737;
+  position: absolute;
+  top: 5%;
+  left:30%;
+}
+
+.description{
+  height:10vh;
+  width:25vw;
+  position: absolute;
+  top: 45%;
+  left:25%;
+}
+
+#couleurdesc{
+  color: #373737;
+  font-size: 1.9vh;
+  font-family: montserra;
+}
+
+.taillebutton{
+  height:5vh;
+  width: 10vw;
+  background-color: #C0B283;
+}
+
+#buttonservices{
+  position: absolute;
+  top: 80%;
+  left: 09%;
+}
+
+/*CSS pour services*/
+
+.montre{
+  height:32vh;
+  width:30vw;
+  border:2px solid #C0B283;
+  position: absolute;
+  top: 23%;
+  left:25%;
+  background-image:url(../images/img_03.jpg);
+  background-size:cover;
+  transition-property: opacity;
+  transition-duration: 1.5s;
+}
+.montre:hover{
+  background-image:url(../images/img_02.jpg);
+  background-size:cover;
+  background-repeat: no-repeat;
+
+}
+
+.montre p{
+  color:#C0B283;
+  position: absolute;
+  left:30%;
+  top:18%;
+  font-size: 6vh;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px #373737;
+  font-family: cinzel;
+}
+
+.montregousset{
+  background-color: white;
+  height:30.8vh;
+  width:14.5vw;
+  border:2px solid #F4F4F4;
+  position: absolute;
+  top:56.5%;
+  left: 25%;
+  background-image: url(../images/img_04.jpg);
+  background-size: cover;
+  transition-duration: 0.5s;
+}
+.montregousset:hover{
+  background-image: url(../images/img_01.jpg);
+  background-size:cover;
+}
+
+.montregousset p{
+  color:#C0B283;
+  position: absolute;
+  font-size: 5vh;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px #373737;
+  left: 15%;
+  top:10%;
+
+}
+
+.monumentale{
+  height:64vh;
+  width: 25vw;
+  border:2px solid #F4F4F4;
+  position: absolute;
+  left:56%;
+  top: 23%;
+  background-image: url(../images/img_05.jpg);
+  background-size: 370px 400px;
+  transition-duration: 1.5s;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.monumentale:hover{
+  background-image:url(../images/img_09.jpg);
+  background-size:cover;
+}
+
+.monumentale p{
+  color:#C0B283;
+  position: absolute;
+  font-size:6vh;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px #373737;
+  left:8%;
+  top:35%;
+}
+
+.reparation{
+  background-color: white;
+  height:30.8vh;
+  width:14.5vw;
+  border:2px solid #F4F4F4;
+  position: absolute;
+  top: 56.5%;
+  left: 40.5%;
+  background-image: url(../images/img_11.jpg);
+  background-size:cover;
+  transition-duration: 1.5s;
+}
+.reparation:hover{
+  background-image: url(../images/pattern_04.jpg);
+  background-size: cover;
+}
+
+.reparation p{
+  color:#C0B283;
+  position: absolute;
+  font-size: 4.5vh;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px #373737;
+  top:25%;
+  left:6%;
+}
+
+/* CSS pour a propos */

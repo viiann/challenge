@@ -1,0 +1,232 @@
+
+/* CSS pour acceuil */
+@font-face {
+  font-family:"montserra";
+  src :url("Montserrat-Regular.ttf");
+}
+@font-face {
+  font-family:"cinzel";
+  src:url("Cinzel-Black.ttf");
+}
+
+body{
+  height:100%;
+  width:100%;
+  overflow: hidden;
+}
+
+.bgacceuil{
+  height:100%;
+  width:100%;
+  position: absolute;
+  left:0;
+}
+
+.hautpage{
+  height: 10vh;
+  width: 100%;
+  background-color: #373737;
+  position: absolute;
+  top: 0;
+  left:0;
+  border-bottom: 2px solid white;
+}
+
+.logo{
+  height: 10vh;
+  width: 15vw;
+  float:left;
+}
+
+.navbar{
+  position: absolute;
+  left: 55%;
+  top: 33%;
+}
+a{
+  text-decoration: none;
+  margin-left:4vw;
+  color:#DCD0C0;
+  font-size: 2.8vh;
+  font-family: cinzel;
+}
+a:hover{
+  color:grey;
+}
+
+.milieupage{
+  height:35vh;
+  width:40vw;
+  position: absolute;
+  left:29%;
+  top:35%;
+  border:2px solid white;
+  background-image: url(../images/pattern_01.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.logoacc{
+  height:10vh;
+  width:17vw;
+  border:2px solid #373737;
+  position: absolute;
+  top: 5%;
+  left:30%;
+}
+
+.description{
+  height:10vh;
+  width:25vw;
+  position: absolute;
+  top: 45%;
+  left:25%;
+}
+
+#couleurdesc{
+  color: #373737;
+  font-size: 1.9vh;
+  font-family: montserra;
+}
+
+.taillebutton{
+  height:5vh;
+  width: 10vw;
+  background-color: #C0B283;
+}
+
+#buttonservices{
+  position: absolute;
+  top: 80%;
+  left: 09%;
+}
+
+/*CSS pour services*/
+
+.montre{
+  height:190px;
+  width:400px;
+  border:2px solid #C0B283;
+  position: absolute;
+  top: 23%;
+  left:25%;
+  background-image:url(../images/img_03.jpg);
+  background-size:cover;
+}
+.montre:hover{
+  background-image:url(../images/img_02.jpg);
+  background-size:cover;
+  background-repeat: no-repeat;
+
+}
+.montregousset{
+  background-color: white;
+  height:190px;
+  width:190px;
+  border:2px solid white;
+  position: absolute;
+  top:56.5%;
+  left: 25%;
+  background-image: url(../images/img_04.jpg);
+  background-size: cover;
+}
+.montregousset:hover{
+  background-image: url(../images/img_01.jpg);
+  background-size:cover;
+}
+
+.monumentale{
+  height:400px;
+  width: 300px;
+  border:2px solid white;
+  position: absolute;
+  left:56%;
+  top: 23%;
+  background-image: url(../images/img_05.jpg);
+  background-size: 370px 400px;
+}
+.monumentale:hover{
+  background-image:url(../images/img_09.jpg);
+  background-size:cover;
+}
+
+.reparation{
+  background-color: white;
+  height:190px;
+  width:190px;
+  border:2px solid white;
+  position: absolute;
+  top: 56.5%;
+  left: 40.5%;
+  background-image: url(../images/img_11.jpg);
+  background-size:cover;
+}
+.reparation:hover{
+  background-image: url(../images/pattern_04.jpg);
+  background-size: cover;
+}
+
+/*CSS pour apropos*/
+
+.histoirehorlogerie{
+  position: absolute;
+  top: 15%;
+  left:10%;
+  background: rgba(55,55,55,0.8);
+  text-align: center;
+  height:48vh;
+  width:35vw;
+  color:#C0B283;
+  font-size: 2.5vh;
+  border: 2px solid white;
+  font-family: montserra;
+}
+
+.photoolivier{
+  height:33vh;
+  width:25vw;
+  background-image:url(../images/olivier.jpg);
+  background-size: cover;
+  position: absolute;
+  left: 62%;
+  top:15%;
+  border: 2px solid white;
+
+}
+.olivier{
+  height: 45vh;
+  width:30vw;
+  position: absolute;
+  text-align: center;
+  color:#C0B283;
+  background:rgba(55,55,55,0.8);
+  left: 60%;
+  top: 50%;
+  font-size: 2.3vh;
+  border:2px solid white;
+  font-family: montserra;
+}
+
+.imgfb{
+  height: 10vh;
+  width:5vw;
+  position: absolute;
+  top:75%;
+  left:15%;
+}
+
+.imgtwtr{
+  height:10vh;
+  width:5vw;
+  position: absolute;
+  top:75%;
+  left: 25%;
+}
+
+.imginsta{
+  height:10vh;
+  width:5vw;
+  position: absolute;
+  top:75%;
+  left:35%;
+}

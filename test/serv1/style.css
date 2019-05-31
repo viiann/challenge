@@ -1,0 +1,202 @@
+/* CSS pour acceuil */
+body{
+  height:100%;
+  width:100%;
+  overflow: hidden;
+}
+
+.bgacceuil{
+  height:100%;
+  width:100%;
+  position: absolute;
+  left:0;
+}
+
+.hautpage{
+  height: 65px;
+  width: 100%;
+  background-color: #373737;
+  position: absolute;
+  top: 0;
+  left:0;
+  border-bottom: 2px solid white;
+}
+
+.logo{
+  height: 62px;
+  width: 185px;
+  float:left;
+}
+
+.navbar{
+  position: absolute;
+  left: 60%;
+  top: 35%;
+}
+a{
+  text-decoration: none;
+  margin-left:50px;
+  color:#DCD0C0;
+}
+a:hover{
+  color:grey;
+}
+
+.milieupage{
+  height:300px;
+  width:700px;
+  position: absolute;
+  left:24vw;
+  top:34vh;
+  border:2px solid white;
+  background-image: url(../images/pattern_01.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.logoacc{
+  height:90px;
+  width:270px;
+  background-color: #373737;
+  border:1px solid white;
+  position: absolute;
+  top:2vh;
+  left:15vw;
+}
+
+.description{
+  height:200px;
+  width:500px;
+  position: absolute;
+  top: 20vh;
+  left:7vw;
+}
+
+#couleurdesc{
+  color: #373737;
+  font-size: 15px;
+}
+
+.taillebutton{
+  height:50px;
+  width: 150px;
+  background-color: #C0B283;
+}
+
+#buttonservices{
+  position: absolute;
+  top: 35%;
+  left: 27%;
+}
+
+/*CSS pour services*/
+
+.montre{
+  background-color:white;
+  height:190px;
+  width:400px;
+  border:2px solid #F4F4F4;
+  position: absolute;
+  top: 23%;
+  left:25%;
+  background-image:url(../images/img_03.jpg);
+  background-size:cover;
+  transition-property: opacity;
+  transition-duration: 1.5s;
+}
+.montre:hover{
+  background-image:url(../images/img_02.jpg);
+  background-size:cover;
+  background-repeat: no-repeat;
+
+}
+
+.montre p{
+  color:#C0B283;
+  position: absolute;
+  left:33%;
+  top:21%;
+  font-size: 35px;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px #373737;
+}
+
+.montregousset{
+  background-color: white;
+  height:190px;
+  width:190px;
+  border:2px solid #F4F4F4;
+  position: absolute;
+  top:56.5%;
+  left: 25%;
+  background-image: url(../images/img_04.jpg);
+  background-size: cover;
+  transition-duration: 0.5s;
+}
+.montregousset:hover{
+  background-image: url(../images/img_01.jpg);
+  background-size:cover;
+}
+
+.montregousset p{
+  color:#C0B283;
+  position: absolute;
+  font-size: 35px;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px #373737;
+  left: 13%;
+  top:9%;
+
+}
+
+.monumentale{
+  height:400px;
+  width: 300px;
+  border:2px solid #F4F4F4;
+  position: absolute;
+  left:56%;
+  top: 23%;
+  background-image: url(../images/img_05.jpg);
+  background-size: 370px 400px;
+  transition-duration: 1.5s;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.monumentale:hover{
+  background-image:url(../images/img_09.jpg);
+  background-size:cover;
+}
+
+.monumentale p{
+  color:#C0B283;
+  position: absolute;
+  font-size:35px;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px #373737;
+  left:9%;
+  top:35%;
+}
+
+.reparation{
+  background-color: white;
+  height:190px;
+  width:190px;
+  border:2px solid #F4F4F4;
+  position: absolute;
+  top: 56.5%;
+  left: 40.5%;
+  background-image: url(../images/img_11.jpg);
+  background-size:cover;
+  transition-duration: 1.5s;
+}
+.reparation:hover{
+  background-image: url(../images/pattern_04.jpg);
+  background-size: cover;
+}
+
+.reparation p{
+  color:#C0B283;
+  position: absolute;
+  font-size: 33px;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px #373737;
+  top:20%;
+}
+
+/* CSS pour a propos */
